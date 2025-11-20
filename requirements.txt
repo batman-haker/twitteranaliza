@@ -1,0 +1,19 @@
+# Twitter Analyzer - Requirements
+# For Streamlit Cloud deployment
+
+# Web Framework
+streamlit>=1.28.0
+
+# API Clients
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+requests==2.32.4
+anthropic==0.68.0
+
+# Data Processing
+pydantic==2.10.0
+beautifulsoup4==4.12.3
+python-dotenv==1.0.1
+
+# HTML Parsing
+lxml>=4.9.0
